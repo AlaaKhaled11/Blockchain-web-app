@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	@apply transition ease-in-out duration-300;
+}
+
+input {
+	@apply border rounded px-2 py-0.5;
+}
+
+th {
+	@apply text-start;
+}
+
+td {
+	@apply py-2;
+}
